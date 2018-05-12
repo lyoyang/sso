@@ -8,10 +8,14 @@ import com.lyoyang.utils.JsonReturn;
 import com.lyoyang.utils.JsonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
 import java.util.UUID;
 
+
+
+@Service
 public class LoginServiceImpl implements LoginService {
 
     @Autowired

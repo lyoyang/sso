@@ -7,8 +7,10 @@ import com.lyoyang.utils.JsonReturn;
 import com.lyoyang.utils.JsonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+@Service
 public class TokenServiceImpl implements TokenService {
 
 

@@ -5,9 +5,10 @@ import com.lyoyang.service.RegisterService;
 import com.lyoyang.sso.dao.UserMapper;
 import com.lyoyang.utils.JsonReturn;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 import org.springframework.util.StringUtils;
-
+@Service
 public class RegisterServiceImpl implements RegisterService {
 
     @Autowired
